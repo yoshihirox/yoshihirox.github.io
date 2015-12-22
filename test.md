@@ -1,6 +1,6 @@
 ## hoge
 
-```
+```javascript
 var hoge = 0;
 
 var hoge = function(){
