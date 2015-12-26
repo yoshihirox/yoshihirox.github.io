@@ -22,4 +22,4 @@
 
 ***
 # windows
-  ## [windowsでターミナルを使えるようにする](./windows_on_terminal.html)
+  ## [windowsでターミナルを使えるようにする](./windows_on_terminal.md.html)
