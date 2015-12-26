@@ -20,5 +20,6 @@
 # arduino
 
 
-#windows
-  ##[windowsでターミナルを使えるようにする](./windows_on_terminal.html)
+***
+# windows
+  ## [windowsでターミナルを使えるようにする](./windows_on_terminal.html)
