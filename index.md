@@ -6,7 +6,7 @@
   ## [test](./test.html)
   ## h2 desu
   <font color=#F00> hoge </font>
-  
+
 
 ***  
 # webGL
@@ -18,3 +18,7 @@
 
 ***
 # arduino
+
+
+#windows
+  ##[windowsでターミナルを使えるようにする](./windows_on_terminal.html)
