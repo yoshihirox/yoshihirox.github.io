@@ -2,7 +2,7 @@
 <html>
   <head>
       <meta charset="utf-8" />
-      <title>index</title>
+      <title>windows_nodejs_install_guide</title>
       <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(201, 204, 219); overflow: auto; background-color: rgb(16, 18, 24); }
 .markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
 .markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
@@ -385,16 +385,14 @@ pre.editor-colors[mini] .scroll-view,
 }
 </style>
   </head>
-  <body class='markdown-preview'><hr>
-<h1 id="nodejs">nodeJS</h1>
-<h3 id="-windows-nodejs-windows_nodejs_install_guide-md-html-"><a href="./windows_nodejs_install_guide.md.html">Windows上にNodeJs開発環境を構築</a></h3>
-<hr>
-<h1 id="webgl">webGL</h1>
-<hr>
-<h1 id="processing">processing</h1>
-<hr>
-<h1 id="arduino">arduino</h1>
-<hr>
-<h1 id="windows">windows</h1>
-<h3 id="-windows-windows_on_terminal-md-html-"><a href="./windows_on_terminal.md.html">windowsでターミナルを使えるようにする</a></h3></body>
+  <body class='markdown-preview'><h2 id="windows-nodejs-">Windowsにnodejs開発環境を構築</h2>
+<h2 id="nodist">nodist</h2>
+<p>nodistはnodejsのバージョン管理ツール<br>linuxでいうnodebrew<br>インストーラを使ってダウンロード、インストール</p>
+<h2 id="nodejs-">nodejsのインストール</h2>
+<p>管理者でターミナル起動(terminalについては   <a href="./windows_on_terminal.md.html">windowsでターミナルを使えるようにする</a>を参照)<br>nodist update<br>おわり<br>node -v<br>npm -v<br>で確認</p>
+<h2 id="express-">expressのインストール</h2>
+<p>proxy使用下では環境変数HTTP_PROXYを作成しておく</p>
+<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>npm&nbsp;install&nbsp;express&nbsp;-g</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>npm&nbsp;install&nbsp;express-generator&nbsp;-g</span></span></span></div></pre><p>以下テスト</p>
+<pre class="editor-colors lang-bash"><div class="line"><span class="source shell"><span>express&nbsp;</span><span class="support function builtin shell"><span>test</span></span></span></div><div class="line"><span class="source shell"><span class="support function builtin shell"><span>cd</span></span><span>&nbsp;</span><span class="support function builtin shell"><span>test</span></span></span></div><div class="line"><span class="source shell"><span>npm&nbsp;install</span></span></div><div class="line"><span class="source shell"><span>npm&nbsp;start</span></span></div></pre>
+<p>起動すれば成功</p></body>
 </html>
