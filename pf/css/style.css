@@ -1,0 +1,97 @@
+html {
+  background-color: transparent;
+  background-image: none;
+  font-size:75%;
+  font-family: 'Lato', sans-serif;
+}
+#wrapper{
+    font-size:1.5em;
+    margin:0 auto;
+    background-color: #DDD;
+    width:100%;
+    /*text-align :center;*/
+        max-width:960px;
+}
+
+#header{
+    margin-left: 1em;
+    padding:0.7em;
+}
+#header h1{
+    font-size:3em;
+}
+
+.single-content{
+
+padding:2em;
+}
+.single-content h2{
+    font-size:1.8em;
+    margin-bottom:0.6em;
+    color:#fff;
+    display: inline;
+    padding: 0.5em 1em;
+    background-color:  #111;
+}
+.single-content .image-wrapper{
+    width:100%;
+    margin-top :0.9em;
+    z-index: -999;
+}
+
+
+.single-content .image-wrapper-pulse img{
+
+    /*transform: rotate(90deg);  /* 2D回転 */*/
+
+}
+.single-content img{
+    float:left;
+    width:60%;
+}
+.single-content .youtube{
+    position: relative;
+    width: 90%;
+    padding-top: 56.25%;
+}
+.single-content .youtube iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.single-content p{
+    display: block;
+    max-width:500px;
+    line-height: 1.3em;
+    clear:both:
+}
+.single-content ul{
+    color:#555;
+    padding:1em;
+    max-width:500px;
+    line-height: 1.3em;
+}
+.single-content .sub-image{
+    width:40%;
+    float:left;
+}
+.single-content .sub-image img{
+    margin-left:5%;
+    width:75%;
+    float:left;
+}
+
+#footer{
+    clear:both;
+    padding:1.3em;
+    text-align:right;
+    color:#FFF;
+    background-color: #222;
+}
+
+#processing{
+    width:100%;
+}

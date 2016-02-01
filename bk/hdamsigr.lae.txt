@@ -1,0 +1,11 @@
+﻿[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = yoshihirox
+[user]
+	email = yshr9999999@gmail.com
+
+
+
