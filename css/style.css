@@ -41,7 +41,7 @@ padding:2em;
 
 
 .single-content .image-wrapper-pulse img{
-
+    margin-top: 0.9em;
     /*transform: rotate(90deg);  /* 2D回転 */*/
 
 }
