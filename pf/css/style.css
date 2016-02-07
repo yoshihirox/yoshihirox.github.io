@@ -19,6 +19,8 @@ html {
 }
 #header h1{
     font-size:3em;
+    padding:0.2em;
+    border-bottom: solid 10px;
 }
 
 .single-content{
@@ -37,6 +39,9 @@ padding:2em;
     width:100%;
     margin-top :0.9em;
     z-index: -999;
+}
+.single-content ul li{
+    margin-left: 1em;
 }
 
 
@@ -93,5 +98,9 @@ padding:2em;
 }
 
 #processing{
+    width:100%;
+}
+
+#crash{
     width:100%;
 }
